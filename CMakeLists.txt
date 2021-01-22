@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.2)
 if($ENV{TRAVIS_BUILD_NUMBER})
 	project(ip_filter VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 else()
-	project(ip_filter VERSION 0.0.124)
+	project(ip_filter VERSION 0.0.125)
 endif()
 
 add_executable(ip_filter ip_filter.cpp)
